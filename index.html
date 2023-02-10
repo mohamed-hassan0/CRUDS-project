@@ -10,7 +10,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 class="text-center py-2">product mamgment system</h1>
+    <h1 class="text-center py-2">Product Management System</h1>
     <div class="w-75 m-auto py-3">
       <div class="form-group">
         <label class="my-3" for="productNameInput">Product Name:</label>
@@ -41,7 +41,14 @@
       >
         Add product
       </button>
-      <input  oninput="searchProduct(this.value)" type="search" class="form-control w-75 m-auto my-3 text-center" id="searchInput" name="search" placeholder="search...">
+      <input
+        oninput="searchProduct(this.value)"
+        type="search"
+        class="form-control w-75 m-auto my-3 text-center"
+        id="searchInput"
+        name="search"
+        placeholder="search..."
+      />
       <table class="table text-white">
         <thead>
           <th>index</th>
@@ -52,8 +59,7 @@
           <th>Update</th>
           <th>Delete</th>
         </thead>
-        <tbody id="table-body">
-        </tbody>
+        <tbody id="table-body"></tbody>
       </table>
     </div>
     <script src="./js/bootstrap.bundle.min.js"></script>
